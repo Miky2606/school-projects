@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(rgba(238, 4, 179, 0.61), white);
+  padding: 10px;
+}
+
+.nav_list {
+  display: flex;
+  padding-right: 12px;
+  color: black;
+}
+
+.nav_list li {
+  transition: 0.4s ease-in;
+  margin-left: 20px;
+  list-style: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 9px;
+  border-radius: 10px;
+}
+
+.nav_list li:hover {
+  transform: scale(1.1);
+  color: white;
+  /* background: rgb(255, 192, 245); */
+  backdrop-filter: blur(20px);
+}

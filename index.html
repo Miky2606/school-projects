@@ -6,52 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hola</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar_styles.css">
+    <link rel="stylesheet" href="footer_styles.css">
 </head>
 
 <body>
 
 
+    <section class="navBar">
+
+        <nav class="nav">
+            <div class="title">
+                <h1>Title</h1>
+            </div>
+
+            <ul class="nav_list">
+                <li>Home</li>
+                <li>About</li>
+                <li>Components</li>
+            </ul>
+
+        </nav>
+    </section>
 
 
     <div class="form-div">
         <form class="form">
 
-            <h2>Create User</h2>
+            <h2>Contact Us</h2>
 
             <label for="name">
                 Name
             </label>
             <input type="text" id="name" placeholder="Enter yorur name" class="form-input" required>
-
+            <label for="last_name">
+                Last Name
+            </label>
+            <input type="text" id="last_name" class="form-input" placeholder="Enter Last Name" required>
 
             <label for="email">
                 Email
             </label>
             <input type="email" id="email" placeholder="Enter Email" class="form-input" required>
-            <label for="password">
-                Password
+
+            <label for="message">
+                Opinion
             </label>
-            <input type="password" id="password" class="form-input" placeholder="Enter Password" required>
-
-            <div class="form-footer">
-                <a href="">Sign In</a>
-                <span>|</span>
-                <a href="">Forgot Password?</a>
-
-
-            </div>
-
-            <div class="checkbox">
-                <input type="checkbox" id="check" required>
-                <a href="">Accept Terms and Conditons?</a>
-            </div>
+            <textarea name="message" id="message" cols="30" rows="10" required></textarea>
 
             <button class="button-form" type="submit">Submit</button>
         </form>
     </div>
 
+    <footer class="footer">
+        <div class="footer_section">
+
+            <h4>Title</h4>
+
+
+
+
+        </div>
+    </footer>
+
 </body>
 
-<script src="/index.js"></script>
+
 
 </html>

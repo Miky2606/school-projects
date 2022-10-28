@@ -1,0 +1,17 @@
+.footer {
+  width: 99vw;
+  height: 5vh;
+  position: fixed;
+  background: linear-gradient(white, rgba(238, 4, 179, 0.61));
+  bottom: 0;
+}
+
+.footer_section {
+  text-align: center;
+}
+
+@media only screen and (max-width: 747px) {
+  .footer {
+    width: 97vw;
+  }
+}
